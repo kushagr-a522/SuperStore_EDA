@@ -1,4 +1,5 @@
 # SuperStore_Sales-Analysis
+> Status: In Progress (Started June 29, 2026, Targeted completion: July 10, 2026)
 
 ## Overview
 Analysis of superstore sales data (51,000+ records) to uncover revenue trends, profit drivers, and regional performance insights.
@@ -28,3 +29,15 @@ Analysis of superstore sales data (51,000+ records) to uncover revenue trends, p
 ## Project Structure
 - 'SuperStoresOders.csv' - raw dataset
 - 'Superstore_sales_analysis.ipynb' - Python analysis notebook
+- 'Superstore_Dashboard.pbix' - Power BI Dashboard
+
+## Progress
+- [x] Dataset loaded into Power BI
+- [x] Date columns formatted correctly - (Power BI)
+- [x] First visual: Sales by Region
+- [ ] Python data cleaning (nulls, duplicates, data types)
+- [ ] Exploratory Data Analysis (EDA) - (Python)
+- [ ] SQL queries for business questions
+- [ ] Profit & discount analysis
+- [ ] Full Power BI dashboard with KPIs
+- [ ] Business insights write-ups
