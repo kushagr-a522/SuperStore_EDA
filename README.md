@@ -6,7 +6,7 @@ Analysis of superstore sales data (51,000+ records) to uncover revenue trends, p
 
 ## Tools Used
 - Python (NumPy, Pandas, Matplotlib, Seaborn)
-- SQL
+- SQL (SQLite)
 - Power BI
 
 ## Dataset
@@ -18,26 +18,38 @@ Analysis of superstore sales data (51,000+ records) to uncover revenue trends, p
       dtype='object'}
 
 ## Business Questions Answered
-- WHich region geenrates highest revenue?
+- Which region generates highest revenue?
 - Which products are most/least profitable?
 - How does discount affect profit?
 - What are the monthly sales trends?
 
 ## Key Insights
-*(Will be updated as analysis progresses)*
+1. Central region leads in total sales ($1,807,431) but Canada is the least profitable market.
+2. Canon imageCLASS 2200 Copier is the highest profit product at $25,199.
+3. Cubify CubeX 3D Printer is worst performer — losses $8,879 on just $9 in sales.
+4. Office Supplies → Appliances sub-category has the best profit margin at 37.47%.
+5. Heavy discounting (40%+) is causing $627K+ in total profit loss — biggest finding.
+6. Business shows consistent YoY growth from 2011 to 2014.
 
 ## Project Structure
-- 'SuperStoresOders.csv' - raw dataset
+- 'SuperStoreOrders.csv' - raw dataset
 - 'Superstore_sales_analysis.ipynb' - Python analysis notebook
 - 'Superstore_Dashboard.pbix' - Power BI Dashboard
+- 'SuperStore.db' - SQL queries (SQLite)
+
+## Dashboard Preview
+*(Power BI dashboard screenshot will be added upon completion)*
+
+## Key Business Recommendation
+Capping all discounts at 20% company-wide could potentially recover $600K+ in lost profit annually while maintaining sales volume.
 
 ## Progress
 - [x] Dataset loaded into Power BI
 - [x] Date columns formatted correctly - (Power BI)
 - [x] First visual: Sales by Region
 - [x] Python data cleaning (nulls, duplicates, data types)
+- [x] SQL queries for business questions
 - [ ] Exploratory Data Analysis (EDA) - (Python)
-- [ ] SQL queries for business questions
 - [ ] Profit & discount analysis
 - [ ] Full Power BI dashboard with KPIs
 - [ ] Business insights write-ups
