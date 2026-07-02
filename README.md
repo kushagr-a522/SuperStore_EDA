@@ -24,7 +24,7 @@ Analysis of superstore sales data (51,000+ records) to uncover revenue trends, p
 - What are the monthly sales trends?
 
 ## Key Insights
-1. Central region leads in total sales ($1,807,431) but Canada is the least profitable market.
+1. Central region leads in total sales ($1.8M) but Canada is the least profitable market.
 2. Canon imageCLASS 2200 Copier is the highest profit product at $25,199.
 3. Cubify CubeX 3D Printer is worst performer — losses $8,879 on just $9 in sales.
 4. Office Supplies → Appliances sub-category has the best profit margin at 37.47%.
@@ -49,7 +49,7 @@ Capping all discounts at 20% company-wide could potentially recover $600K+ in lo
 - [x] First visual: Sales by Region
 - [x] Python data cleaning (nulls, duplicates, data types)
 - [x] SQL queries for business questions
-- [ ] Exploratory Data Analysis (EDA) - (Python)
-- [ ] Profit & discount analysis
+- [x] Exploratory Data Analysis (EDA) - (Python)
+- [x] Profit & discount analysis
 - [ ] Full Power BI dashboard with KPIs
 - [ ] Business insights write-ups
