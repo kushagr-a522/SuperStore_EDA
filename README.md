@@ -32,10 +32,23 @@ Analysis of superstore sales data (51,000+ records) to uncover revenue trends, p
 6. Business shows consistent YoY growth from 2011 to 2014.
 
 ## Project Structure
-- 'SuperStoreOrders.csv' - raw dataset
-- 'Superstore_sales_analysis.ipynb' - Python analysis notebook
-- 'Superstore_Dashboard.pbix' - Power BI Dashboard
-- 'SuperStore.db' - SQL queries (SQLite)
+SuperStore_EDA/
+│
+├── charts/
+│   ├── 1_sales_by_region.png
+│   ├── 2_profit_by_region.png
+│   ├── 3_yearly_trend.png
+│   ├── 4_category.png
+│   ├── 5_discount_profit.png
+│   ├── 6_top10_products.png
+│   └── 7_heatmap.png
+│
+├── SuperStoreOrders.csv
+├── SuperStore_Cleaned.csv
+├── Superstore_Dashboard.pbix
+├── Superstore_sales_analysis.ipynb
+├── README.md
+└── .gitignore
 
 ## Dashboard Preview
 *(Power BI dashboard screenshot will be added upon completion)*
