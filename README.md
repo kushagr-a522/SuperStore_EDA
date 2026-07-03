@@ -51,7 +51,11 @@ SuperStore_EDA/
 * .gitignore
 
 ## Dashboard Preview
-*(Power BI dashboard screenshot will be added upon completion)*
+### Page 1 - Sales Overview
+![Page 1](charts/Sales_Overview.png)
+
+### Page 2 - Product Analysis
+![Page 2](charts/Product_analysis.png)
 
 ## Key Business Recommendation
 Capping all discounts at 20% company-wide could potentially recover $600K+ in lost profit annually while maintaining sales volume.
@@ -64,5 +68,5 @@ Capping all discounts at 20% company-wide could potentially recover $600K+ in lo
 - [x] SQL queries for business questions
 - [x] Exploratory Data Analysis (EDA) - (Python)
 - [x] Profit & discount analysis
-- [ ] Full Power BI dashboard with KPIs
+- [x] Full Power BI dashboard with KPIs
 - [ ] Business insights write-ups
