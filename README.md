@@ -11,23 +11,22 @@ Analysis of superstore sales data (51,000+ records) to uncover revenue trends, p
 
 ## Dataset
 - 51,000+ orders
-- Columns: {'order_id', 'order_date', 'ship_date', 'ship_mode', 'customer_name',
-       'segment', 'state', 'country', 'market', 'region', 'product_id',
-       'category', 'sub_category', 'product_name', 'sales', 'quantity',
-       'discount', 'profit', 'shipping_cost', 'order_priority', 'year',
-      dtype='object'}
+- **Columns:** order_id, order_date, ship_date, ship_mode, customer_name,
+       segment, state, country, market, region, product_id,
+       category, sub_category, product_name, sales, quantity,
+       discount, profit, shipping_cost, order_priority, year
 
 ## Business Questions Answered
 - Which region generates highest revenue?
 - Which products are most/least profitable?
 - How does discount affect profit?
-- What are the monthly sales trends?
+- What are the yearly sales trends?
 
 ## Key Insights
-1. Central region leads in total sales ($1.8M) but Canada is the least profitable market.
+1. Central region leads in total sales ($1.9M) but Canada is the least profitable market.
 2. Canon imageCLASS 2200 Copier is the highest profit product at $25,199.
-3. Cubify CubeX 3D Printer is worst performer — losses $8,879 on just $9 in sales.
-4. Office Supplies → Appliances sub-category has the best profit margin at 37.47%.
+3. Cubify CubeX 3D Printer is worst performer — losses $8,879 on just $675 in sales.
+4. Office Supplies → Appliances sub-category has the best profit margin at 36.11%.
 5. Heavy discounting (40%+) is causing $627K+ in total profit loss — biggest finding.
 6. Business shows consistent YoY growth from 2011 to 2014.
 
@@ -41,8 +40,8 @@ SuperStore_EDA/
   - 5_discount_profit.png
   - 6_top10_products.png
   - 7_heatmap.png
-  - Complete_analysis_dashboard.png
-  - Product_analysis
+  - Sales_complete_overview.png
+  - Product_analysis.png
 
 * SuperStoreOrders.csv
 * SuperStore_Cleaned.csv
@@ -53,7 +52,7 @@ SuperStore_EDA/
 
 ## Dashboard Preview
 ### Page 1 - Sales Overview
-![Page 1](charts/Complete_analysis_dashboard.png)
+![Page 1](charts/Sales_complete_overview.png)
 
 ### Page 2 - Product Analysis
 ![Page 2](charts/Product_analysis.png)
