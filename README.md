@@ -52,7 +52,7 @@ SuperStore_EDA/
 
 ## Dashboard Preview
 ### Page 1 - Sales Overview
-![Page 1](charts/Compplete_analysis_dashboard.png)
+![Page 1](charts/Complete_analysis_dashboard.png)
 
 ### Page 2 - Product Analysis
 ![Page 2](charts/Product_analysis.png)
