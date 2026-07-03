@@ -1,4 +1,4 @@
-# SuperStore_Sales-Analysis
+# SuperStore-Sales-Analysis
 > Status: In Progress (Started June 29, 2026, Targeted completion: July 10, 2026)
 
 ## Overview
@@ -14,7 +14,7 @@ Analysis of superstore sales data (51,000+ records) to uncover revenue trends, p
 - Columns: {'order_id', 'order_date', 'ship_date', 'ship_mode', 'customer_name',
        'segment', 'state', 'country', 'market', 'region', 'product_id',
        'category', 'sub_category', 'product_name', 'sales', 'quantity',
-       'discount', 'profit', 'shipping_cost', 'order_priority', 'year'],
+       'discount', 'profit', 'shipping_cost', 'order_priority', 'year',
       dtype='object'}
 
 ## Business Questions Answered
@@ -41,7 +41,8 @@ SuperStore_EDA/
   - 5_discount_profit.png
   - 6_top10_products.png
   - 7_heatmap.png
-
+  - Complete_analysis_dashboard.png
+  - Product_analysis
 
 * SuperStoreOrders.csv
 * SuperStore_Cleaned.csv
