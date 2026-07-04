@@ -16,22 +16,22 @@ To analyze 4 years of Superstore sales data and uncover key insights around regi
 
 ## Tools Used
 
- Tool
- |--Purpose
+- Tool
+- |--Purpose
 
 ---
 
 - Python (Pandas, Matplotlib, Seaborn)
-  |-- Data cleaning, EDA, visualization
+- |-- Data cleaning, EDA, visualization
 
 - SQL (SQLite)
-  |-- Business queries and aggregations
+- |-- Business queries and aggregations
 
 - Power BI
-  |-- Interactive dashboard
+- |-- Interactive dashboard
 
 - Git & GitHub
-  |-- Version control
+- |-- Version control
 
 ---
 
@@ -61,19 +61,19 @@ SuperStore_EDA/
 ## Business Questions Answered
 
 1. Which region generates the highest revenue and profit?
-**Ans.1:** Central region - $1.9M in total sales
+- **Ans.1:** Central region - $1.9M in total sales
 
 2. Which products are most and least profitable?
-**Ans.2:** Canada — lowest profit margin and Canon imageCLASS 2200 Copier —highest $25,199 profit
+- **Ans.2:** Canada - lowest profit margin and Canon imageCLASS 2200 Copier - highest $25,199 profit
 
 3. How does discount affect overall profit?
-**Ans.3:** Discount above 20% push orders into loss territory
+- **Ans.3:** Discount above 20% push orders into loss territory
 
 4. Which categories and sub-categories perform best?
-**Ans.4:** Office Supplies -> Appliances at **36.11% profit margin**
+- **Ans.4:** Office Supplies -> Appliances at **36.11% profit margin**
 
 5. Is the business growing year over year?
-**Ans.5:** Yes - consistent year over year growth 2011 - 2014
+- **Ans.5:** Yes - consistent year over year growth 2011 - 2014
 
 ---
 
@@ -92,16 +92,16 @@ SuperStore_EDA/
 - **Recommendation:** Discontinue worst performers, increase focus on top profit drivers.
 
 ### 3. Discount Impact - Most Critical Finding
-- Orders with **0–20% discount** → profitable
-- Orders with **20–40% discount** → average loss of $42.88 per order
-- Orders with **40%+ discount** → total losses of **$627,411**
+- Orders with **0–20% discount** -> profitable
+- Orders with **20–40% discount** -> average loss of $42.88 per order
+- Orders with **40%+ discount** -> total losses of **$627,411**
 - This is over 40% of the company's total profit being wiped out by discounting
 - **Recommendation:** Cap all discounts at 20% company-wide immediately
 
 ### 4. Category Performance
-- Technology → highest sales and profit
-- Office Supplies → Appliances = best profit margin at **36.11%**
-- Furniture → high sales but lowest profit — severely over-discounted
+- Technology -> highest sales and profit
+- Office Supplies -> Appliances = best profit margin at **36.11%**
+- Furniture -> high sales but lowest profit - severely over-discounted
 - **Recommendation:** Prioritize Appliances in marketing. Audit Furniture pricing.
 
 ### 5. Business Growth
@@ -113,7 +113,7 @@ SuperStore_EDA/
 
 ## Executive Summary
 
-Analysis of 51,290 orders reveals that despite consistent year-over-year revenue growth from 2011–2014, the business is losing **$600,000+** annually — over 40% of total profit — due to an ineffective discount strategy. Implementing a 20% discount cap company-wide would recover this loss without requiring any increase in sales volume.
+Analysis of 51,290 orders reveals that despite consistent year-over-year revenue growth from 2011–2014, the business is losing **$600,000+** annually - over 40% of total profit - due to an ineffective discount strategy. Implementing a 20% discount cap company-wide would recover this loss without requiring any increase in sales volume.
 
 ---
 
