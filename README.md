@@ -64,7 +64,7 @@ SuperStore_EDA/
 - **Ans.1:** Central region - $1.9M in total sales
 
 2. Which products are most and least profitable?
-- **Ans.2:** Canada - lowest profit margin and Canon imageCLASS 2200 Copier - highest $25,199 profit
+- **Ans.2:** Most profitable - Canon imageCLASS 2200 Copier at $25,199 profit. Least profitable - Cubify CubeX 3D Printer at -$8,879 loss on $675 in sales.
 
 3. How does discount affect overall profit?
 - **Ans.3:** Discount above 20% push orders into loss territory
@@ -146,12 +146,12 @@ Analysis of 51,290 orders reveals that despite consistent year-over-year revenue
 
 ## Progress
 - [x] Dataset loaded and explored
-- [x] Date cleaning (nulls, duplicates, data types)
+- [x] Data cleaning (nulls, duplicates, data types)
 - [x] Missing sales values handled (category median imputation)
 - [x] SQL queries for 6 business questions
 - [x] Exploratory Data Analysis in Python
 - [x] 7 visualizations created and saved
-- [x] Power BI dashboard - 2 pages with KPLs and slicers
+- [x] Power BI dashboard - 2 pages with KPIs and slicers
 - [x] Business insights documented with recommendations
 
 ---
