@@ -16,22 +16,21 @@ To analyze 4 years of Superstore sales data and uncover key insights around regi
 
 ## Tools Used
 
-- Tool
-- |--Purpose
+- *Tool*
+   - |--*Purpose*
 
----
 
 - Python (Pandas, Matplotlib, Seaborn)
-- |-- Data cleaning, EDA, visualization
+   - |-- Data cleaning, EDA, visualization
 
 - SQL (SQLite)
-- |-- Business queries and aggregations
+   - |-- Business queries and aggregations
 
 - Power BI
-- |-- Interactive dashboard
+   - |-- Interactive dashboard
 
 - Git & GitHub
-- |-- Version control
+   - |-- Version control
 
 ---
 
@@ -119,7 +118,7 @@ Analysis of 51,290 orders reveals that despite consistent year-over-year revenue
 
 ## Key Business Recommendation
 
-> Recommendation -> Expected Impact
+> *Recommendation -> Expected Impact*
 
 ### High Priority
 - Cap all discounts at 20% -> Recover $600K+ annually
