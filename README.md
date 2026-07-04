@@ -17,9 +17,9 @@ To analyze 4 years of Superstore sales data and uncover key insights around regi
 ## Tools Used
 
 - *Tool*
-   - |--*Purpose*
+   - |--*Purpose*   #Example
 
-
+---
 
 - Python (Pandas, Matplotlib, Seaborn)
    - |-- Data cleaning, EDA, visualization
