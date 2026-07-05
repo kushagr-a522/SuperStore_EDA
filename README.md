@@ -3,7 +3,9 @@
 
 ## About
 **Analyst:** Kushagra
+
 **Tools:** Python | SQLite | Power BI | Git
+
 **Dataset:** 51,290 orders | Superstore Sales Order | 2011-2014
 
 ---
