@@ -2,7 +2,7 @@
 > Status: Completed | July 2026
 
 ## About
-**Analyst:** Kushagra
+**Analyst:** Kushagra Yadav
 
 **Tools:** Python | SQLite | Power BI | Git
 
@@ -18,7 +18,7 @@ To analyze 4 years of Superstore sales data and uncover key insights around regi
 
 ## Tools Used
 
-- **Python** (Pandas, Matplotlib, Seaborn) - Data cleaning, EDA, visualization
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn) - Data cleaning, EDA, visualization
 - **SQL** (SQLite) - Business queries and aggregations
 - **Power BI** - Interactive 2-page dashboard
 - **Git & GitHub** - Version control
@@ -29,22 +29,22 @@ To analyze 4 years of Superstore sales data and uncover key insights around regi
 
 SuperStore_EDA/
 * charts/
-  - 1_sales_by_region.png
-  - 2_profit_by_region.png
-  - 3_yearly_trend.png
-  - 4_category.png
-  - 5_discount_profit.png
-  - 6_top10_products.png
-  - 7_heatmap.png
-  - Sales_complete_overview.png
-  - Product_analysis.png
+  - `1_sales_by_region.png`
+  - `2_profit_by_region.png`
+  - `3_yearly_trend.png`
+  - `4_category.png`
+  - `5_discount_profit.png`
+  - `6_top10_products.png`
+  - `7_heatmap.png`
+  - `Sales_complete_overview.png`
+  - `Product_analysis.png`
 
-* SuperStoreOrders.csv
-* SuperStore_Cleaned.csv
-* Superstore_Dashboard.pbix
-* Superstore_sales_analysis.ipynb
-* README.md
-* .gitignore
+* `SuperStoreOrders.csv`
+* `SuperStore_Cleaned.csv`
+* `Superstore_Dashboard.pbix`
+* `Superstore_sales_analysis.ipynb`
+* `README.md`
+* `.gitignore`
 
 ---
 
