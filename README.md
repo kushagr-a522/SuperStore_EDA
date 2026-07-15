@@ -6,7 +6,7 @@
 
 **Tools:** Python | SQLite | Power BI | Git
 
-**Dataset:** 51,290 orders | Superstore Sales Order | 2011-2014
+**Dataset:** 51,290 orders | Superstore Sales Dataset | 2011-2014
 
 ---
 
@@ -57,7 +57,7 @@ SuperStore_EDA/
 - **Ans.2:** Most profitable - Canon imageCLASS 2200 Copier at $25,199 profit. Least profitable - Cubify CubeX 3D Printer at -$8,879 loss on $675 in sales.
 
 3. How does discount affect overall profit?
-- **Ans.3:** Discount above 20% push orders into loss territory
+- **Ans.3:** Discounts above 20% push orders into loss territory
 
 4. Which categories and sub-categories perform best?
 - **Ans.4:** Office Supplies -> Appliances at **36.11% profit margin**
